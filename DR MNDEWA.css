@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(226, 231, 231);
+}
+.circleimg{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-bottom: 3px solid #444;
+}
+.imgcontainer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 100VH;
+    position: absolute;
+    left: 17%;
+}
+#nav1{
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 3px solid #444;
+}
+.unl{
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-end;
+   gap: 20px;
+}
+.unl li a{
+    text-decoration: none;
+    color: black;
+}
+.about{
+    margin: 40px;
+    font-size: 18px;
+    padding-top: 100px;
+}
+#nav2{
+    display: flex;
+    border-radius: 50%;
+    list-style-type: none;
+    gap: 30px;
+    border-color: black;
+}
+#nav2 li a{
+    text-decoration: none;
+    width: 120px;
+    height: 120px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav2 li{
+    border-radius: 50%;
+    border-color: black;
+}
+#footer{
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-top: 3px solid #444;
+    padding-top: 50%;
+}
+#form1{
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+}
+#form1 form textarea{
+    width: 280px;
+    height: 70px;
+    align-content: center;
+    text-align: center;
+}
+#form1 form input{
+    width: 350px;
+    height: 40px;
+}
+#form1 form button{
+    width: 70px;
+    height: 40px;
+}
+#contact1{
+    padding-top: 7%;
+    padding-left: 10%;
+}
+#footer2{
+    text-align: center;
+    font-family: arial, sans-serif;
+    padding-top: 100px;
+}
+#researchf{
+    border: 50px solid rgb(155, 55, 55);
+    border-radius: 20px;
+    overflow: hidden;
+    height: 450px;
+    margin-top: 30px;
+    background: white;
+    width: auto;
+}
+#researchf h1{
+    text-align: center;
+}
+
